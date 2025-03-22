@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About -Harsha</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-image: url();
+        }
+        header {
+            background: #0f0e0e;
+            padding: 15px 0;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            background-color: #fff;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #f4f4f4;
+            font-weight: 600;
+        }
+        h1{
+            text-align: center;
+            padding: 20px;
+        }
+        .about {
+            display: flex;
+            align-items: center;
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+        .about-image img {
+            max-width: 300px;
+            border-radius: 10px;
+        }
+        .about-content {
+            margin-left: 40px;
+            padding: 20px;
+            max-width: 700px;
+        }
+        .about-content h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+        .about-info {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 40px;
+            font-size:20px;
+        }
+        .about-info div {
+            width: 50%;
+            margin-bottom: 10px;
+        }
+        @media (max-width: 768px) {
+            .about {
+                flex-direction: column;
+                text-align: center;
+                height: 150px;
+            }
+            .about-image img {
+                max-width: 100%;
+                margin-bottom: 20px;
+                height: 150px;
+            }
+            .about-content {
+                margin-left: 0;
+            }
+        }
+        h1{
+            text-align: center;
+        }
+        .skills-container, .projects-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .skill-card, .project-card {
+            background: #fff;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            text-align: center;
+
+
+        }
+
+        .skill-card:hover, .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Harsha</div>
+            <ul>
+                <li><a href="portfoli.html">Home</a></li>
+                <li><a href="About.html" class="active">About</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>About</h1>
+    <section id="about" class="about">
+        <div class="about-image">
+            <img src="MY PHOTO.jpeg" alt="Harsha">
+        </div>
+        <div class="about-content">
+            <h1>Student | Learner | Developer</h1>
+            <div class="about-info">
+                <div><strong>Birthday:</strong> 21:09:2003</div>
+                <div><strong>Degree:</strong> Bachelor of Engineering</div>
+                <div><strong>Phone:</strong> 8668157497</div>
+                <div><strong>Email:</strong> harshavardhini2103@gmail.com</div>
+                <div><strong>City:</strong> Chennai</div>
+                <div><strong>LinkedIn:</strong><a href="https://www.linkedin.com/feed/">Click Here</a></div>
+            <div><strong>Instagram:</strong><a href="https://www.instagram.com/">Visit my Insta</a></div>
+        </div>
+        </div>
+
+    </section>
+   <section class="skill"
+   <div class="section" id="skills">
+    <h1>Skills</h1>
+    <div class="skills-container">
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">Python</div>
+        <div class="skill-card">Machine Learning</div>
+        <div class="skill-card">Sql</div>
+        <div class="skill-card">Tableau</div>
+    </div>
+</div>
+</section>
+</body>
+</html>
